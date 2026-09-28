@@ -32,64 +32,39 @@
   </header>
 
   <main id="main">
-    <section class="hero-light">
-      <div class="container insights-head">
-        <div>
-          <span class="eyebrow">Insights</span>
-          <h1>Ideas from the work.</h1>
-          <p class="lead measure">Observations on organisations, growth, technology and the sometimes messy space between strategy and execution.</p>
-        </div>
+    <section class="insights-hero">
+      <div class="container">
+        <span class="eyebrow">Insights</span>
+        <h1>Ideas from the work.</h1>
+        <p class="lead">Observations on organisations, growth, technology and the sometimes messy space between strategy and execution.</p>
       </div>
     </section>
 
-    <section class="section">
+    <section class="insights-featured">
+      <div class="container" id="insights-featured">
+        <noscript>
+          <p>The insights on this page need JavaScript to display. You can also find them on <a href="https://www.linkedin.com/in/1johancarlberg/" rel="noopener">LinkedIn</a>.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section insights-latest">
       <div class="container">
-        <div class="article-grid">
-          <article class="article reveal">
-            <div class="ph ph--wide" role="img" aria-label="Image (placeholder)"><div><strong>Image</strong>Article image · 16:10</div></div>
-            <div class="article__body">
-              <p class="article__meta">Delivery</p>
-              <h3>Activity isn&rsquo;t the same as progress</h3>
-              <p>Why organisations can be extremely busy while moving surprisingly little forward.</p>
-              <p class="soon">Coming soon</p>
-            </div>
-          </article>
-          <article class="article reveal">
-            <div class="ph ph--wide" role="img" aria-label="Image (placeholder)"><div><strong>Image</strong>Article image · 16:10</div></div>
-            <div class="article__body">
-              <p class="article__meta">Technology</p>
-              <h3>AI is making execution cheaper. Judgement isn&rsquo;t.</h3>
-              <p>As AI increases organisational capacity to produce, deciding what deserves to be produced becomes more important.</p>
-              <p class="soon">Coming soon</p>
-            </div>
-          </article>
-          <article class="article reveal">
-            <div class="ph ph--wide" role="img" aria-label="Image (placeholder)"><div><strong>Image</strong>Article image · 16:10</div></div>
-            <div class="article__body">
-              <p class="article__meta">Operating models</p>
-              <h3>Growth exposes the operating model</h3>
-              <p>Why growth often reveals organisational weaknesses that good people previously managed to compensate for.</p>
-              <p class="soon">Coming soon</p>
-            </div>
-          </article>
-          <article class="article reveal">
-            <div class="ph ph--wide" role="img" aria-label="Image (placeholder)"><div><strong>Image</strong>Article image · 16:10</div></div>
-            <div class="article__body">
-              <p class="article__meta">Operating models</p>
-              <h3>Modular operating models</h3>
-              <p>Why scalability requires deciding what should be standard and where flexibility genuinely creates value.</p>
-              <p class="soon">Coming soon</p>
-            </div>
-          </article>
-          <article class="article reveal">
-            <div class="ph ph--wide" role="img" aria-label="Image (placeholder)"><div><strong>Image</strong>Article image · 16:10</div></div>
-            <div class="article__body">
-              <p class="article__meta">Growth</p>
-              <h3>When Sales and Operations speak the same data language</h3>
-              <p>Why many apparent cultural conflicts between commercial and operational teams are actually information problems.</p>
-              <p class="soon">Coming soon</p>
-            </div>
-          </article>
+        <span class="eyebrow">Latest thinking</span>
+        <h2 class="insights-latest__title">Notes on organisations, growth and technology.</h2>
+        <ul class="insight-list" id="insights-list"></ul>
+      </div>
+    </section>
+
+    <section class="insights-cta">
+      <div class="container insights-cta__inner">
+        <div>
+          <span class="eyebrow">From ideas to delivery</span>
+          <h2>Thinking about a similar challenge?</h2>
+        </div>
+        <div>
+          <p>Many of these observations come from problems I&rsquo;ve encountered in real organisations. If one of them sounds familiar, let&rsquo;s talk.</p>
+          <a class="arrow-link" href="contact.html">Start a conversation</a>
         </div>
       </div>
     </section>
@@ -112,6 +87,8 @@
     <div class="container footer-bottom">&copy; Carlberg Advisory</div>
   </footer>
 
+  <script src="assets/js/insights-data.js" defer></script>
+  <script src="assets/js/insights.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
 </html>
