@@ -361,6 +361,31 @@ p:last-child { margin-bottom: 0; }
   }
 }
 
+/* ---------- Symptoms (When DDE becomes useful) ---------- */
+.symptoms-head { display: grid; grid-template-columns: .9fr 1.1fr; gap: 1.5rem clamp(2rem, 6vw, 5rem); align-items: start; }
+.symptoms-head h2 { max-width: 13ch; margin: 0; }
+.symptoms-head .lead { color: var(--muted); font-size: 1.1rem; margin: .4rem 0 0; }
+.symptoms {
+  list-style: none; margin: 3rem 0 0; padding: 0;
+  display: grid; grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--line); border-left: 1px solid var(--line);
+}
+.symptoms li { padding: 1.9rem 2rem 2.1rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: #fff; }
+.symptoms li:nth-child(4n+1), .symptoms li:nth-child(4n) { background: var(--blue-50); }
+.symptom__label { display: block; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+.symptoms p { margin: 0; font-size: 1.3rem; line-height: 1.4; color: var(--navy-800); letter-spacing: -.01em; max-width: 30ch; }
+.symptoms-note { display: flex; gap: 1.5rem; align-items: baseline; margin: 2.25rem 0 0; font-size: .98rem; color: var(--muted); max-width: 46rem; }
+.symptoms-note::before { content: ""; flex: none; width: 40px; height: 1px; background: var(--navy-800); transform: translateY(-.3em); }
+.symptoms-note strong { color: var(--navy-800); }
+@media (max-width: 760px) {
+  .symptoms-head { grid-template-columns: 1fr; }
+  .symptoms { grid-template-columns: 1fr; }
+  .symptoms li:nth-child(n) { background: #fff; }
+  .symptoms li:nth-child(odd) { background: var(--blue-50); }
+  .symptoms li { padding: 1.5rem 1.4rem 1.7rem; }
+  .symptoms p { font-size: 1.15rem; }
+}
+
 /* ---------- Journey (Diagnose → Build & Run → Embed) ---------- */
 .journey { list-style: none; margin: 3rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; counter-reset: step; }
 .journey li { position: relative; }
