@@ -437,6 +437,10 @@ p:last-child { margin-bottom: 0; }
 
 .portrait { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; border-radius: var(--radius); background: #e9ecef; }
 
+.about-photo { width: 100%; max-width: 460px; justify-self: end; }
+.portrait--about { aspect-ratio: 1 / 1; object-position: 48% 35%; }
+@media (max-width: 860px) { .about-photo { justify-self: start; } }
+
 .form-card { background: var(--blue-50); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1.5rem, 3.5vw, 2.25rem); }
 .contact-card h2 { font-size: 1.5rem; }
 .contact-prompts { margin: 0 0 1.75rem; padding: 0; list-style: none; }
