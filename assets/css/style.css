@@ -264,14 +264,6 @@ p:last-child { margin-bottom: 0; }
 .card--area .card__icon { flex: none; margin: 0; }
 .card--area h3 { font-size: 1.15rem; }
 
-/* ---------- Credibility strip ---------- */
-.cred-strip { border-top: 1px solid var(--line); padding: 2rem 0; background: #fff; }
-.cred-strip__inner { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem 3rem; flex-wrap: wrap; }
-.cred-strip__label { margin: 0; font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
-.cred-strip__names { margin: 0; font-size: 1.05rem; font-weight: 700; color: #3a4452; letter-spacing: -.01em; }
-.cred-strip__names b { font-weight: inherit; white-space: nowrap; }
-.cred-strip__names span { color: var(--blue-300); font-weight: 400; margin: 0 .5rem; }
-
 /* ---------- Cases ---------- */
 .cases-label { margin-top: clamp(3.5rem, 7vw, 5rem); }
 .cases { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
@@ -286,6 +278,15 @@ p:last-child { margin-bottom: 0; }
   border-top: 1px solid var(--blue-500); border-right: 1px solid var(--blue-500); transform: rotate(45deg);
 }
 .case p { font-size: .98rem; }
+.cases-foot {
+  margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 3rem; flex-wrap: wrap;
+}
+.cases-foot p { margin: 0; }
+.cases-foot__label { font-size: .85rem; color: var(--muted); }
+.cases-foot__names { font-size: 1rem; font-weight: 700; color: #3a4452; letter-spacing: -.01em; }
+.cases-foot__names b { font-weight: inherit; white-space: nowrap; }
+.cases-foot__names span { color: var(--blue-300); font-weight: 400; margin: 0 .45rem; }
 @media (max-width: 960px) { .cases { grid-template-columns: 1fr; gap: 2rem; } }
 
 /* ---------- Founder intro ---------- */
