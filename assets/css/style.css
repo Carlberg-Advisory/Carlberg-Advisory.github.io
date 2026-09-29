@@ -95,7 +95,6 @@ p:last-child { margin-bottom: 0; }
 .btn-ghost:hover { background: rgba(255,255,255,.1); color: #fff; }
 .btn-outline { border-color: var(--blue-600); color: var(--blue-600); }
 .btn-outline:hover { background: var(--blue-600); color: #fff; }
-.btn-sm { padding: .5rem 1rem; font-size: .875rem; }
 .btn-row { display: flex; flex-wrap: wrap; gap: .75rem; }
 
 .arrow-link { font-weight: 600; font-size: .95rem; display: inline-flex; align-items: center; gap: .4rem; }
@@ -119,7 +118,6 @@ p:last-child { margin-bottom: 0; }
 .site-nav a[aria-current="page"]::after {
   content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 2px; background: var(--blue-500);
 }
-.site-nav .btn { margin-left: .5rem; }
 
 .nav-toggle {
   display: none; background: none; border: 0; padding: .5rem; cursor: pointer;
@@ -143,7 +141,6 @@ p:last-child { margin-bottom: 0; }
   .site-nav.is-open { display: flex; }
   .site-nav a:not(.btn) { padding: .85rem 0; border-bottom: 1px solid rgba(255,255,255,.08); font-size: 1rem; }
   .site-nav a[aria-current="page"]::after { display: none; }
-  .site-nav .btn { margin: 1.25rem 0 0; justify-content: center; }
 }
 
 /* ---------- Dark hero (Home, DDE) ---------- */
@@ -515,11 +512,6 @@ p:last-child { margin-bottom: 0; }
 }
 .env__items--5 li { font-weight: 500; font-size: .95rem; }
 
-.facts { display: grid; grid-template-columns: repeat(3, 1fr); margin: 2.5rem 0 0; }
-.facts > div { padding: 0 clamp(1.25rem, 3vw, 2.5rem); border-left: 1px solid var(--line); }
-.facts > div:first-child { padding-left: 0; border-left: 0; }
-.facts dt { font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--navy-800); margin-bottom: .6rem; }
-.facts dd { margin: 0; color: var(--text); line-height: 1.6; }
 
 @media (max-width: 960px) {
   .env__row { grid-template-columns: 1fr; }
@@ -527,10 +519,7 @@ p:last-child { margin-bottom: 0; }
 }
 @media (max-width: 760px) {
   .about-head { grid-template-columns: 1fr; }
-  .why, .facts { grid-template-columns: 1fr; gap: 1.75rem; }
-  .why > div, .facts > div { padding: 1.5rem 0 0; border-left: 0; border-top: 1px solid var(--line); }
-  .why > div:first-child, .facts > div:first-child { padding-top: 0; border-top: 0; }
-  .env__items, .env__items--5 { grid-template-columns: 1fr 1fr; }
+  .why,   .why > div,   .why > div:first-child,   .env__items, .env__items--5 { grid-template-columns: 1fr 1fr; }
 }
 
 /* ---------- About ---------- */
