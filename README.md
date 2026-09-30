@@ -26,11 +26,11 @@ page, asset paths need `../` (e.g. `../assets/css/style.css`).
 - Insights entries marked `// DRAFT` in `insights-data.js`: wording taken from the
   original posts' opening lines; confirm or refine
 
-## Publish on GitHub Pages
-1. Create a repository and push these files to the `main` branch.
-2. Repository → Settings → Pages → Source: "Deploy from a branch", `main`, `/ (root)`.
-3. Live at https://carlberg-advisory.github.io/
-4. Custom domain later: enter it under Settings → Pages and point DNS at GitHub.
+## Publishing
+- Every push to `main` goes live at https://carlberg-advisory.com within about a minute
+  (GitHub Pages, custom domain set by the `CNAME` file; DNS at Porkbun).
+- carlberg-advisory.de and carlbergadvisory.com forward to it (Porkbun URL forwarding).
+- carlberg-advisory.com/book forwards to Microsoft Bookings; the booking URL lives only in `book/index.html`.
 
 ## Preview locally
     python3 -m http.server 8000
