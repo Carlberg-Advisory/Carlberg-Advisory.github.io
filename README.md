@@ -4,7 +4,7 @@ Static site (plain HTML/CSS/JS, no build step) for GitHub Pages.
 
 ## Structure
 - `index.html`, `dde.html`, `advisory.html`, `about.html`, `insights.html`, `contact.html`
-- `impressum.html`, `datenschutz.html` (placeholder), `404.html`
+- `impressum.html`, `datenschutz.html`, `404.html`
 - `assets/css/style.css`: all styling; colours are variables at the top
 - `assets/js/main.js`: mobile menu, scroll reveal
 - `assets/js/insights-data.js`: the list of Insights items (edit this to add content)
@@ -23,7 +23,6 @@ link it with `url: "insights/article-slug.html"` and `external: false`. Inside t
 page, asset paths need `../` (e.g. `../assets/css/style.css`).
 
 ## Still to fill in
-- `datenschutz.html`: full privacy policy text (placeholder for now)
 - Insights entries marked `// DRAFT` in `insights-data.js`: wording taken from the
   original posts' opening lines; confirm or refine
 
