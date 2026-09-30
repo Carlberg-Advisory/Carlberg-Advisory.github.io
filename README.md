@@ -21,6 +21,7 @@ Static site (plain HTML/CSS/JS, no build step) for GitHub Pages.
 Native articles (hosted on this site): create the page as `insights/article-slug.html`,
 link it with `url: "insights/article-slug.html"` and `external: false`. Inside that
 page, asset paths need `../` (e.g. `../assets/css/style.css`).
+Also add the new page's address to `sitemap.xml` so Google finds it.
 
 ## Still to fill in
 - Insights entries marked `// DRAFT` in `insights-data.js`: wording taken from the
