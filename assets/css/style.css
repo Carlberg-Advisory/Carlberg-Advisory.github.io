@@ -640,8 +640,9 @@ p:last-child { margin-bottom: 0; }
 /* ---------- Legal pages ---------- */
 .legal { max-width: 46rem; }
 .legal h2 { font-size: 1.35rem; margin-top: 2.5rem; }
-.legal .todo { background: #fff6d6; padding: 0 .25rem; border-radius: 2px; }
-.notice { background: var(--blue-50); border-left: 3px solid var(--blue-600); padding: 1rem 1.25rem; font-size: .92rem; margin-bottom: 2rem; }
+.legal__date { color: var(--muted); font-size: .92rem; }
+.legal ul { padding-left: 1.25rem; margin: 0 0 1.1em; }
+.legal li { margin-bottom: .35rem; }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--navy-950); color: rgba(255,255,255,.7); padding: 3.5rem 0 2rem; font-size: .92rem; }
