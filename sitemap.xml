@@ -1,27 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://carlberg-advisory.com/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/"/>
+  </url>
+  <url>
+    <loc>https://carlberg-advisory.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/"/>
   </url>
   <url>
     <loc>https://carlberg-advisory.com/dde.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/dde.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/dde.html"/>
+  </url>
+  <url>
+    <loc>https://carlberg-advisory.com/de/dde.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/dde.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/dde.html"/>
   </url>
   <url>
     <loc>https://carlberg-advisory.com/advisory.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/advisory.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/advisory.html"/>
+  </url>
+  <url>
+    <loc>https://carlberg-advisory.com/de/advisory.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/advisory.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/advisory.html"/>
   </url>
   <url>
     <loc>https://carlberg-advisory.com/about.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/about.html"/>
+  </url>
+  <url>
+    <loc>https://carlberg-advisory.com/de/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/about.html"/>
   </url>
   <url>
     <loc>https://carlberg-advisory.com/insights.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/insights.html"/>
+  </url>
+  <url>
+    <loc>https://carlberg-advisory.com/de/insights.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/insights.html"/>
   </url>
   <url>
     <loc>https://carlberg-advisory.com/contact.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/contact.html"/>
+  </url>
+  <url>
+    <loc>https://carlberg-advisory.com/de/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://carlberg-advisory.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://carlberg-advisory.com/de/contact.html"/>
   </url>
 </urlset>

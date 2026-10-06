@@ -21,6 +21,12 @@
                  worked out from the url (e.g. "LinkedIn").
     featured     Optional. true = shown as the large featured item at the top.
                  Only one item should be featured.
+    lang         Language of the piece itself, "en" (default) or "de". German pages
+                 add "(auf Englisch)" to English-language items.
+    de           German version for /de/insights.html:
+                 de: { category: "...", title: "...", summary: "..." }
+                 Optional url/image inside de override them on the German page.
+                 Without it, the German page shows the English text.
     quote        Optional, featured item only. A short line from the piece,
                  shown in the visual panel when there is no image.
 
@@ -44,6 +50,7 @@ window.CA_INSIGHTS = [
     featured: true,
     category: "Logistics & commercial models",
     title: "The Rise of Tech-Driven Product-Based Logistics",
+    de: { category: "Logistik & Geschäftsmodelle", title: "Der Aufstieg technologiegetriebener, produktbasierter Logistik", summary: "Die Zukunft der Kontraktlogistik und darüber hinaus." },
     summary: "The future within contract logistics and beyond.", // DRAFT
     quote: "Tech-driven companies with a clear customer segmentation are poised to dominate the market with a product-based approach.",
     date: "2024-05-21",
@@ -54,6 +61,7 @@ window.CA_INSIGHTS = [
   {
     category: "Organisations & delivery",
     title: "Execution isn’t a personality trait",
+    de: { category: "Organisation & Umsetzung", title: "Umsetzungsstärke ist keine Charaktereigenschaft", summary: "Was passiert, wenn die Umsetzung einer Organisation von einer Handvoll Menschen abhängt, die einfach wissen, wie man Dinge erledigt?" },
     summary: "What happens when organisational delivery depends on a handful of people who simply know how to get things done?",
     date: "2026-09-25",
     contentType: "LinkedIn",
@@ -63,6 +71,7 @@ window.CA_INSIGHTS = [
   {
     category: "Growth & operating models",
     title: "Growth is a stress test for your organisation",
+    de: { category: "Wachstum & Operating Models", title: "Wachstum ist ein Stresstest für Ihre Organisation", summary: "Wachstum schafft nicht unbedingt organisatorische Schwächen. Es legt meist die offen, die schon da waren." },
     summary: "Growth doesn’t necessarily create organisational weaknesses. It has a habit of exposing the ones that were already there.",
     date: "2026-09-15",
     contentType: "LinkedIn",
@@ -72,6 +81,7 @@ window.CA_INSIGHTS = [
   {
     category: "AI & management",
     title: "AI is making execution cheaper. Judgement isn’t.",
+    de: { category: "KI & Management", title: "KI macht Umsetzung billiger. Urteilsvermögen nicht.", summary: "Je schneller KI produziert, desto mehr verlagert sich der Engpass in Organisationen hin zu Urteilsvermögen, Priorisierung und Verantwortung." },
     summary: "As AI increases the speed of production, the organisational bottleneck increasingly shifts towards judgement, prioritisation and accountability.",
     date: "2026-09-10",
     contentType: "LinkedIn",
@@ -81,6 +91,7 @@ window.CA_INSIGHTS = [
   {
     category: "Organisations & delivery",
     title: "Most organisations don’t have an energy problem", // DRAFT
+    de: { category: "Organisation & Umsetzung", title: "Die meisten Organisationen haben kein Energieproblem", summary: "Die Menschen sind beschäftigt. Kalender sind voll. Projekte laufen. Aber Aktivität ist nicht dasselbe wie Fortschritt." },
     summary: "People are busy. Calendars are full. Projects are running. But activity isn’t the same as progress.", // DRAFT
     date: "2026-09-08",
     contentType: "LinkedIn",
@@ -90,6 +101,7 @@ window.CA_INSIGHTS = [
   {
     category: "Logistics & supply chain",
     title: "Most logistics setups still run like bespoke consulting projects", // DRAFT
+    de: { category: "Logistik & Supply Chain", title: "Die meisten Logistik-Setups laufen noch wie individuelle Beratungsprojekte", summary: "Deshalb skalieren sie nicht." },
     summary: "That’s why they can’t scale.", // DRAFT
     date: "2025-10-28",
     contentType: "LinkedIn",
